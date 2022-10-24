@@ -105,7 +105,8 @@ body{
   }
 
   .redes_sociais dd:hover {
-    color: #68b631;
+    background-color: #68b631;
+    border-radius: 200px;
   }
 
   dl {
