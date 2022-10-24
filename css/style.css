@@ -101,7 +101,7 @@ body{
     padding:0px 500px;
     position: absolute;
     top: 789px;
-    left: 300px;
+    left: 500px;
   }
 
   .redes_sociais dd:hover {
@@ -114,14 +114,27 @@ body{
       padding: 0;
   }
 
+.instagram{
+  position: absolute;
+  top: 0;
+  left: 370px;
+}
+
 .twiter {
     /* display: flex;
     align-items: center;
     margin-bottom: 10px; */
     position: absolute;
     top: 0;
-    left: 350px;
+    left: 300px;
   }
+
+  .facebook{
+    position: absolute;
+    top: 0;
+    left: 440px;
+  }
+
 /* html { 
     background: url(../images/home_image.png) no-repeat center center fixed; 
     -webkit-background-size: cover;
