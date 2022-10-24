@@ -10,10 +10,12 @@
 </head>
 <body>
     <hr>
-    <h2 id="menuForms">Inscrição</h2>
-    <div class="Cadastro conectado com planilha google">
-        <h3 id="mensagem"></h3>
-        <forms class="forms">
+
+    
+    <h2 id="menuForms">Inscreva-se grátis e comece a curtir.</h2>
+    <div class="Formulario_conectado_com_planilha_google">
+        <h3 id="msg"></h3>
+        <form>
             <label>Nome Completo</label>
             <input type="text" name="nome" placeholder="Seu nome é..."> </br>
 
@@ -32,15 +34,16 @@
             <label>Senha</label>
             <input type="senha" name="senha" placeholder="XXXXXXXX" required> </br>
 
+
             <input type="submit" id="sub">
-        </forms>
+        </form>
 
         <script> //Com JavaScript
             let form = document.querySelector("form");
             form.addEventListener('submit', (e) => {
                 e.preventDefault();
                 let data = new FormData(form);
-                fetch('https://script.google.com/macros/s/AKfycbyehFPtgCLY0bUwgLjlgswUXU6gtTAUnOXhLxzGse0nF27ZDplAkzC50n7F3g3zMRfPgg/exec', {
+                fetch('https://script.google.com/macros/s/AKfycbx9luTmmh9rnAoAJEKBgviG2gnjoxynMGbLononBEYFG_PjFtpHkpokNrFYC1S0RhrwbA/exec', {
                     method: "POST",
                     body: data
                 })
@@ -50,9 +53,8 @@
                         document.querySelector("#sub").value = "Enviado";
                     });
             });
-        </script>    
+        </script>
     </div>
-
     <hr>
 </body>
 </html>
