@@ -45,12 +45,16 @@ body{
 
   .coluna1{
     font-family: Arial, Helvetica, sans-serif;
-    color: #f2f2f2;
+    color:darkgray;
     font-size:15px;
-   
+    text-align:left;
+    padding:0px 500px;
+    position: absolute;
+    top: 789px;
+    left: -300px;
   }
 
-  .coluna1 dl{
+  /* .coluna1 dl{
     font-family: Arial, Helvetica, sans-serif;
     color:darkgray;
     font-size:15px;
@@ -59,7 +63,7 @@ body{
     position: absolute;
     top: 1;
     left: -300px;
-  }
+  } */
 
   .coluna2{
     font-family: Arial, Helvetica, sans-serif;
@@ -94,13 +98,30 @@ body{
 
   .redes_sociais{
     text-align: right;
-    padding:10px 1000px;
+    padding:0px 500px;
+    position: absolute;
+    top: 789px;
+    left: 300px;
   }
 
   .redes_sociais dd:hover {
     color: #68b631;
   }
 
+  dl {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+  }
+
+.twiter {
+    /* display: flex;
+    align-items: center;
+    margin-bottom: 10px; */
+    position: absolute;
+    top: 0;
+    left: 350px;
+  }
 /* html { 
     background: url(../images/home_image.png) no-repeat center center fixed; 
     -webkit-background-size: cover;
