@@ -1,0 +1,4 @@
+posicionar elementos
+responsividade
+colocar texto em cima da imagem
+arrumar imagem

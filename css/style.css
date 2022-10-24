@@ -56,6 +56,9 @@ body{
     font-size:15px;
     text-align:left;
     padding:30px 500px;
+    position: absolute;
+    top: 1;
+    left: -300px;
   }
 
   .coluna2{
@@ -64,6 +67,9 @@ body{
     font-size:15px;
     text-align:left;
     padding:0px 500px;
+    position: absolute;
+    top: 789px;
+    left: -100px;
   }
 
   .comunidades{
@@ -92,7 +98,6 @@ body{
   }
 
   .redes_sociais dd:hover {
-    background-color: #68b631;
     color: #68b631;
   }
 
