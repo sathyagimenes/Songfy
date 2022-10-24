@@ -1,4 +1,8 @@
-posicionar elementos
 responsividade
 colocar texto em cima da imagem
 arrumar imagem
+arrumar icones
+arrumar hover na coluna 1
+
+forms
+fazer o css
