@@ -4,14 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacts</title>
-    <!-- <link rel="stylesheet" type="text/javascript" href="../javascript/forms.js"/> -->
-    <!-- <script type="text/javascript" src="../javascript/forms.js"></script> -->
+    <link rel="stylesheet" type="text/css" href="./css/style.css"/>
+    <!--<link  rel="stylesheet" type="text/javascript" href="../javascript/forms.html"/>-->
+    <!--<script type="text/javascript" src="../javascript/forms.js"></script>-->
 </head>
 <body>
-    <h2 id="menuForms">forms</h2>
-    <div class="Formulario_conectado_com_planilha_google">
-        <h3 id="msg"></h3>
-        <form>
+    <hr>
+    <h2 id="menuForms">Inscrição</h2>
+    <div class="Cadastro conectado com planilha google">
+        <h3 id="mensagem"></h3>
+        <forms class="forms">
             <label>Nome Completo</label>
             <input type="text" name="nome" placeholder="Seu nome é..."> </br>
 
@@ -21,8 +23,36 @@
             <label>Telefone</label>
             <input type="tel" name="telefone" placeholder="(XX) XXXX-XXXX" required> </br>
 
+            <label>Gênero</label>
+            <input type="gen" name="genero" placeholder="F/M/Nao binario/outros/" notrequired> </br>
+
+            <label>Data de nascimento</label>
+            <input type="nasc" name="aniversario" placeholder="DD/MM/YYYY" required> </br>
+
+            <label>Senha</label>
+            <input type="senha" name="senha" placeholder="XXXXXXXX" required> </br>
+
             <input type="submit" id="sub">
-        </form>
-</div>
+        </forms>
+
+        <script> //Com JavaScript
+            let form = document.querySelector("form");
+            form.addEventListener('submit', (e) => {
+                e.preventDefault();
+                let data = new FormData(form);
+                fetch('https://script.google.com/macros/s/AKfycbyehFPtgCLY0bUwgLjlgswUXU6gtTAUnOXhLxzGse0nF27ZDplAkzC50n7F3g3zMRfPgg/exec', {
+                    method: "POST",
+                    body: data
+                })
+                    .then(res => res.text())
+                    .then(data => { 
+                        document.querySelector("#msg").innerHTML = "Sucesso em seu envio"
+                        document.querySelector("#sub").value = "Enviado";
+                    });
+            });
+        </script>    
+    </div>
+
+    <hr>
 </body>
 </html>
