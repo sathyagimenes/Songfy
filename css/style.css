@@ -1,10 +1,32 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body{
   background-color: #333;
+}
+
+main{
+  height: calc(150vh - 160px);
+  background-color: rgb(41, 65, 171);
+  background-image: url(https://www-growth.scdn.co/static/home/bursts-tablet.svg);
+  background-size: 153%;
+    background-position: right 46% center;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+footer{
+  padding: 80px;
+  display: flex;
 }
 
 .topnav {
     background-color: #333;
     overflow: hidden;
+    align-self: flex-start;
   }
   
   .topnav a {
@@ -24,12 +46,11 @@ body{
 .bottomnav {
     background-color: #333;
     overflow: hidden;
+    margin-top: 1.25rem;
+    margin-bottom: 5rem;
+    align-self: flex-end;
+    display: flex;
 }
-
-.bottomnav a:hover {
-    border-radius: 0px;
-    color: #68b631;
-  }
 
   .imageback{
     align-items: center;
@@ -46,67 +67,49 @@ body{
   .coluna1{
     font-family: Arial, Helvetica, sans-serif;
     color:darkgray;
-    font-size:15px;
+    font-size:20px;
     text-align:left;
     padding:0px 500px;
     position: absolute;
-    top: 789px;
-    left: -300px;
+    left: 50px;
   }
-
-  /* .coluna1 dl{
-    font-family: Arial, Helvetica, sans-serif;
-    color:darkgray;
-    font-size:15px;
-    text-align:left;
-    padding:30px 500px;
-    position: absolute;
-    top: 1;
-    left: -300px;
-  } */
 
   .coluna2{
     font-family: Arial, Helvetica, sans-serif;
     color:darkgray;
-    font-size:15px;
+    font-size:20px;
     text-align:left;
     padding:0px 500px;
     position: absolute;
-    top: 789px;
-    left: -100px;
+    left: 300px;
   }
 
   .comunidades{
     font-family: Arial, Helvetica, sans-serif;
     color: #f2f2f2;
-    font-size:15px;
+    font-size:20px;
   }
 
   .links_uteis{
     font-family: Arial, Helvetica, sans-serif;
     color: #f2f2f2;
-    font-size:15px;
-  }
-
-  .coluna1 dt:hover{
-    color: #68b631;
-  }
-
-  .coluna2 dt:hover{
-    color: #68b631;
+    font-size:20px;
   }
 
   .redes_sociais{
     text-align: right;
     padding:0px 500px;
     position: absolute;
-    top: 789px;
-    left: 500px;
+    left: 800px;
   }
 
   .redes_sociais dd:hover {
-    background-color: #68b631;
-    border-radius: 200px;
+    /* background-color: #68b631; */
+    border-radius: 100%;
+    width: 37px;
+    height: 37px;
+    position: absolute;
+    transform: scale(1.15);
   }
 
   dl {
@@ -119,12 +122,12 @@ body{
   position: absolute;
   top: 0;
   left: 370px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
 }
 
 .twiter {
-    /* display: flex;
-    align-items: center;
-    margin-bottom: 10px; */
     position: absolute;
     top: 0;
     left: 300px;
@@ -134,13 +137,52 @@ body{
     position: absolute;
     top: 0;
     left: 440px;
+    width: 40px;
+    height: 40px;
   }
 
-/* html { 
-    background: url(../images/home_image.png) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  } */
+  .maintext{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    top: 30%;
+    left: 30%;
+    color: #1ed760;;
+    font-family: Arial, Helvetica, sans-serif;
+  }
 
+  .maintext h1{
+    font-size: 150px;
+    text-align: center;
+  }
+
+  .maintext h4{
+    font-size: 19px;
+    text-align: center;
+  }
+
+  .maintext a:hover {
+    transform: scale(1.10);
+  }
+
+
+  @media screen and (min-width:360px) and (max-width:800px)    
+{
+    header div{
+        width:70vw;
+    }
+
+    main img{
+        width: 100%;
+        margin-bottom:3vh;
+    }
+
+    maintext {
+        text-align: center;
+    }
+
+    footer {
+      width:70vw;
+    }
+}

@@ -1,8 +1,13 @@
 responsividade
 colocar texto em cima da imagem
 arrumar imagem
-arrumar icones
+
+fazer o css do forms
+
+extras
+arrumar hover dos icones
 arrumar hover na coluna 1
 
-forms
-fazer o css
+colocar icone do spotify no header
+descobrir cor do fundo azul
+centralizar o texto na imagem
