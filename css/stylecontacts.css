@@ -11,5 +11,74 @@
 
 .forms{
     display:flex;
-    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family:Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 30%;
+    margin: 3%;
 }
+
+.menuForms {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 6%;
+    font-size: 35px;
+    font-family:Arial, Helvetica, sans-serif;
+    
+
+}
+
+.inputdata{
+    margin: 2%;
+    border: 1px solid;
+    border-color: rgb(143, 140, 140);
+    width: 400px;
+    height: 45px;
+    border-radius: 4px;
+}
+
+.forms input:hover{
+    border-color: black;
+}
+
+.buttonforms{
+    min-width: 130px;
+  height: 50px;
+  color: rgb(11, 10, 10);
+  font-size: 20px;
+  padding: 5px 50px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 30px;
+  border: 2px solid  #1ed760;;
+  background:  #1ed760;
+  margin: 20px;
+}
+
+.buttonforms:hover{
+    transform: scale(1.10);
+    
+}
+
+.iconspotify{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.imgspotify{
+    width: 150px;
+    height: 40px;
+    margin: 2%;
+}
+
+
