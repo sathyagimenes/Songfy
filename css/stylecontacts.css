@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.Formulario_conectado_com_planilha_google{
+    display:flex;
+    align-content: center;
+}
+
+.forms{
+    display:flex;
+    align-content: center;
+}
