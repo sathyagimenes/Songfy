@@ -1,13 +1,6 @@
 responsividade
-colocar texto em cima da imagem
-arrumar imagem
-
-fazer o css do forms
-
 extras
 arrumar hover dos icones
 arrumar hover na coluna 1
-
-colocar icone do spotify no header
-descobrir cor do fundo azul
 centralizar o texto na imagem
+alinhamento main e footer,da home.E alinhamento do forms, na contacts.
