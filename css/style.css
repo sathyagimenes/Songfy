@@ -33,7 +33,6 @@ main{
 }
 
 
-
 .topnav {
     display: flex;
     background-color: #333;
@@ -68,13 +67,6 @@ main{
     display: flex;
 }
 
-  .imageback{
-    align-items: center;
-    margin: 0px;
-    border-radius: 10px;
-  }
-
-  
   .coluna1{
     display:flex;
     font-family: Arial, Helvetica, sans-serif;
@@ -101,18 +93,11 @@ main{
     font-size:20px;
   }
 
-  .redes_sociais{
-    display: flex;
-    flex-direction: row;
-
-  }
-
-  .redes_sociais dd:hover {
-    /* background-color: #68b631; */
+  .redes_sociais li:hover {
     transform: scale(1.15);
   }
 
-  .redes_sociais dl{
+  .redes_sociais ul{
     display: flex;
     flex-direction: row;
   }
@@ -144,7 +129,6 @@ main{
     justify-content: center;
     color: #1ed760;
     font-family: Arial, Helvetica, sans-serif;
-
   }
 
   .maintext h1{
