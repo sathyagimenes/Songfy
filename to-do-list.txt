@@ -1,6 +1,4 @@
-responsividade
+responsividade (rever/conferir)
 extras
 arrumar hover dos icones
 arrumar hover na coluna 1
-centralizar o texto na imagem
-alinhamento main e footer,da home.E alinhamento do forms, na contacts.
