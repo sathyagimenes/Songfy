@@ -4,6 +4,11 @@
   padding: 0;
 }
 
+body, html{
+    margin:0;
+    padding:0;
+}
+
 body{
   background-color: #333;
 }
@@ -16,19 +21,18 @@ header{
 }
 
 main{
+  display: flex;
   height: calc(150vh - 160px);
   background-color: rgb(41, 65, 171);
   background-image: url(https://www-growth.scdn.co/static/home/bursts-tablet.svg);
   background-size: 153%;
-    background-position: right 46% center;
-    -webkit-box-pack: center;
-    justify-content: center;
+  background-position: right 46% center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  align-content: center;
 }
 
-footer{
-  padding: 80px;
-  display: flex;
-}
+
 
 .topnav {
     display: flex;
@@ -54,9 +58,13 @@ footer{
 .bottomnav {
     background-color: #333;
     overflow: hidden;
-    margin-top: 1.25rem;
+    margin-top: 1.28rem;
     margin-bottom: 5rem;
+    margin-left: 2rem;
+    padding-top: 2%;
     align-self: flex-end;
+    justify-content: space-evenly;
+    flex-direction: row;
     display: flex;
 }
 
@@ -67,25 +75,18 @@ footer{
   }
 
   
-
   .coluna1{
+    display:flex;
     font-family: Arial, Helvetica, sans-serif;
     color:darkgray;
     font-size:20px;
-    text-align:left;
-    padding:0px 500px;
-    position: absolute;
-    left: 50px;
   }
 
   .coluna2{
+    display: flex;
     font-family: Arial, Helvetica, sans-serif;
     color:darkgray;
     font-size:20px;
-    text-align:left;
-    padding:0px 500px;
-    position: absolute;
-    left: 300px;
   }
 
   .comunidades{
@@ -101,59 +102,49 @@ footer{
   }
 
   .redes_sociais{
-    text-align: right;
-    padding:0px 500px;
-    position: absolute;
-    left: 800px;
+    display: flex;
+    flex-direction: row;
+
   }
 
   .redes_sociais dd:hover {
     /* background-color: #68b631; */
-    border-radius: 100%;
-    width: 37px;
-    height: 37px;
-    position: absolute;
     transform: scale(1.15);
   }
 
+  .redes_sociais dl{
+    display: flex;
+    flex-direction: row;
+  }
+  
   dl {
-      list-style: none;
-      margin: 0;
-      padding: 0;
+    list-style: none;
   }
 
 .instagram{
-  position: absolute;
-  top: 0;
-  left: 370px;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
+  display: flex;
+  margin: 4%;
 }
 
 .twiter {
-    position: absolute;
-    top: 0;
-    left: 300px;
-  }
+    display: flex;
+    margin: 4%;
+}
 
-  .facebook{
-    position: absolute;
-    top: 0;
-    left: 440px;
-    width: 40px;
-    height: 40px;
-  }
+.facebook{
+    display: flex;
+    margin: 4%;
+}
 
   .maintext{
     display: flex;
-    position: absolute;
     flex-direction: column;
+    align-self: center;
     align-items: center;
-    top: 30%;
-    left: 30%;
+    justify-content: center;
     color: #1ed760;
     font-family: Arial, Helvetica, sans-serif;
+
   }
 
   .maintext h1{

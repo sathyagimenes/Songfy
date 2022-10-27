@@ -7,6 +7,25 @@
 .Formulario_conectado_com_planilha_google{
     display:flex;
     align-content: center;
+    justify-content: center;
+    padding: 2%;
+    padding-bottom: 8%;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    padding: 4%;
+    padding-bottom: 1%;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
 }
 
 .forms{
@@ -15,20 +34,14 @@
     justify-content: center;
     align-items: center;
     font-family:Arial, Helvetica, sans-serif;
-    position: absolute;
-    left: 30%;
-    margin: 3%;
 }
 
 .menuForms {
     display:flex;
     justify-content: center;
-    align-items: center;
-    margin: 6%;
+    margin: 4%;
     font-size: 35px;
     font-family:Arial, Helvetica, sans-serif;
-    
-
 }
 
 .inputdata{
@@ -60,17 +73,11 @@
   border: 2px solid  #1ed760;;
   background:  #1ed760;
   margin: 20px;
+  margin-bottom: 12%;
 }
 
 .buttonforms:hover{
     transform: scale(1.10);
-}
-
-.iconspotify{
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 .imgspotify{
