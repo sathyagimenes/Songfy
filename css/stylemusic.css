@@ -327,35 +327,6 @@ footer {
 	height: 90%;
 }
 
-.descricaoMG h6 {
-	font-size: 14px;
-	margin-bottom: 7%;
-    padding-left: 30%;
-}
-
-.descricaoMG p {
-	font-size: 14px;
-	margin-bottom: 7%;
-    padding-left: 30%;
-}
-
-.descricaoMG a {
-	text-decoration: none;
-	color: rgb(240, 238, 238);
-}
-
-.descricaoMG a:hover {
-	text-decoration: underline;
-	color: rgb(240, 238, 238);
-} 
-
-.descricaoMG  a p {
-	font-size: 13px;
-	color: #ada9a9;
-	white-space: nowrap;
-    padding-left: 80%;
-}
-
 @media (max-width: 1000px) {
 	.container1 h1 {
 		font-size: 50px;

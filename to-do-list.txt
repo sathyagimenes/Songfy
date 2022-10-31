@@ -1,4 +1,0 @@
-responsividade (rever/conferir)
-extras
-arrumar hover dos icones
-arrumar hover na coluna 1
