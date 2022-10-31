@@ -352,39 +352,6 @@ footer {
         font-size: 30px;
     }
 
-    .container4{
-        width:30%;
-        height:30vh;
-        font-size:2vw;
-        margin-top:2vh;
-        margin-bottom: 18vh;
-    }
-
-    .container5{
-        width:30%;
-        height:30vh;
-        font-size:2vw;
-        margin-top:2vh;
-        margin-bottom: 18vh;
-        
-    }
-
-    .container6{
-        width:30%;
-        height:30vh;
-        font-size:2vw;
-        margin-top:2vh;
-        margin-bottom: 18vh;
-    }
-
-    .container7{
-        width:30%;
-        height:30vh;
-        font-size:2vw;
-        margin-top:2vh;
-        margin-bottom: 18vh;
-    }
-
     footer{
         display: flex;
         flex-direction: column;
