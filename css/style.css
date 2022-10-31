@@ -179,20 +179,24 @@ main{
 
   @media screen and (min-width:360px) and (max-width:800px)    
 {
-    header div{
-        width:70vw;
+    .maintext h1{
+      font-size: 100px;
+      text-align: center;
     }
 
-    main img{
-        width: 100%;
-        margin-bottom:3vh;
+    .maintext h4{
+      font-size: 15px;
+      text-align: center;
+      width: 40%;
     }
 
-    maintext {
-        text-align: center;
+    .bottomnav {
+      display: flex;
+      flex-direction: column;
     }
 
-    footer {
-      width:70vw;
+    .coluna2 {
+      margin-top: 2%;
+      margin-bottom: 1%;
     }
 }
